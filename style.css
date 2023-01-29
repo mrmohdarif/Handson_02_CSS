@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  height: 100%;
+  border: 5px groove yellow;
+
+  background-image: url("pexels-pixabay-235985.jpg");
+  background-size: cover;
+}
+.div1,
+.div2,
+.div3,
+.div6 {
+  margin: 20px 16px;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  border: 5px solid red;
+  border-radius: 15px;
+
+  font-size: 32px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+}
+.div1 {
+  height: 130px;
+  width: 500px;
+}
+.div2 {
+  height: 70px;
+  margin-top: 16px;
+  margin-left: -179px;
+  margin-right: 100px;
+  width: 500px;
+}
+.div3 {
+  margin: none;
+  flex-direction: column;
+  width: 500px;
+}
+.div3 p {
+  margin: 10px;
+}
+.topdivs {
+  display: flex;
+}
+.div4circle {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 450px;
+  height: 450px;
+  background-color: rgb(31, 142, 157);
+  border-radius: 50%;
+  font-size: 24px;
+  text-decoration: underline;
+  border: 5px solid rgb(6, 67, 60);
+  font-weight: bold;
+}
+.line {
+  width: 97%;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+  margin: 0 5px;
+}
+.div5form {
+  border: 5px dashed red;
+  background-color: #fff;
+  font-size: 22px;
+  width: 420px;
+  height: 730px;
+  padding: 10px 0;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form label {
+  margin-bottom: -22px;
+  align-self: center;
+  color: red;
+}
+form input {
+  text-align: center;
+  width: 150px;
+  display: flex;
+  align-self: center;
+}
+
+.btn {
+  display: inline;
+  width: 80px;
+}
+.circle-form-div {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.div4circle {
+  margin: 0 50px;
+}
+.div4 {
+  align-self: flex-end;
+}
+.div6 {
+  width: 500px;
+  height: 70px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+  background-color: rgb(125, 236, 251);
+  border: 3px solid green;
+  width: 350px;
+  text-align: center;
+
+  border-radius: 20px;
+}
+.card0 {
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+.card-div-1 {
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+h2 {
+  font-size: 30px;
+}
